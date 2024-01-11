@@ -1,22 +1,17 @@
 {
-    "name": "node-http",
-    "version": "1.0.0",
-    "description": "Node HTTP Module Example",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon index"
-    },
-    "author": "FPTU",
-    "license": "ISC",
-    "dependencies": {
-        "body-parser": "^1.20.2",
-        "express": "^4.18.2",
-        "express-generator": "^4.16.1",
-        "morgan": "^1.10.0"
-    },
-    "devDependencies": {
-        "nodemon": "^3.0.2"
-
-    }
+  "name": "exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
